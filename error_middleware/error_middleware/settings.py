@@ -26,7 +26,7 @@ SECRET_KEY = '*fvt-qtwj*%w@%z@wd89!cu#4xb(u)+w*z)9o11obm=6$+a_ay'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+ERROR_STATUS_CODE = [404, 403]
 
 # Application definition
 
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'error.apps.ErrorConfig',
 ]
 
 MIDDLEWARE = [
@@ -47,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'error_middleware.middleware.CatchErrorMiddleware',
 ]
 
 ROOT_URLCONF = 'error_middleware.urls'

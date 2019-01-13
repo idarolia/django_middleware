@@ -2,6 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c10bc58d-c990-4332-80ef-88d94cd93abc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/error_middleware/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_middleware/error/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_middleware/error/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_middleware/error/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_middleware/error/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_middleware/error/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_middleware/error/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_middleware/error/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_middleware/error/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_middleware/error_middleware/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_middleware/error_middleware/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_middleware/error_middleware/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_middleware/error_middleware/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_middleware/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,23 +48,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/error_middleware/error_middleware/urls.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/error_middleware/error/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="60">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding>
-                <element signature="e#650#682#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/error_middleware/error/urls.py">
+        <entry file="file://$PROJECT_DIR$/error_middleware/error/templates/error/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/error_middleware/error_middleware/middleware.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            <state relative-caret-position="105">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -58,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/error_middleware/error/views.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/error_middleware/error_middleware/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="150">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -73,6 +92,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -84,7 +104,12 @@
       <list>
         <option value="$PROJECT_DIR$/error_middleware/error_middleware/urls.py" />
         <option value="$PROJECT_DIR$/error_middleware/error/urls.py" />
+        <option value="$PROJECT_DIR$/error_middleware/error/admin.py" />
+        <option value="$PROJECT_DIR$/error_middleware/error/models.py" />
+        <option value="$PROJECT_DIR$/error_middleware/error/templates/error/index.html" />
+        <option value="$PROJECT_DIR$/error_middleware/error_middleware/middleware.py" />
         <option value="$PROJECT_DIR$/error_middleware/error/views.py" />
+        <option value="$PROJECT_DIR$/error_middleware/error_middleware/settings.py" />
       </list>
     </option>
   </component>
@@ -114,12 +139,6 @@
               <item name="upwards" type="462c0819:PsiDirectoryNode" />
               <item name="error_middleware" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="upwards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upwards" type="462c0819:PsiDirectoryNode" />
-              <item name="error_middleware" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -128,6 +147,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
@@ -157,12 +177,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547305836799</updated>
-      <workItem from="1547345800779" duration="5249000" />
+      <workItem from="1547345800779" duration="16730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5249000" />
+    <option name="totallyTimeSpent" value="16730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="24" width="1313" height="744" extended-state="0" />
@@ -228,28 +248,15 @@
     <entry file="file://$PROJECT_DIR$/error_middleware/error_middleware/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/error_middleware/error_middleware/settings.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/error_middleware/error_middleware/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/error_middleware/error/admin.py">
+    <entry file="file://$PROJECT_DIR$/error_middleware/error_middleware/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error_middleware/error/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#650#682#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -264,20 +271,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/error_middleware/error_middleware/urls.py">
+    <entry file="file://$PROJECT_DIR$/error_middleware/error/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-end-line="8" />
           <folding>
-            <element signature="e#650#682#0" expanded="true" />
+            <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/error_middleware/error/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error_middleware/error/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error_middleware/error_middleware/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error_middleware/error_middleware/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error_middleware/error/templates/error/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/error_middleware/error/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

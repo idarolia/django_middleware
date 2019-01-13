@@ -1,0 +1,9 @@
+{% if all_errors%}
+<ul>
+    {% for error in all_errors %}
+        <li> {{error.error_status}} : {{error.error }}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<h3>No errors to show</h3>
+{% endif%}

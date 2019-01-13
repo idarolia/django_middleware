@@ -1,7 +1,12 @@
 from django.http import HttpResponse
-
+from django.shortcuts import render
+from .models import Error
 
 def index(request):
-    text = '<h2> This is error app homepage</h2>'
-    return HttpResponse(text)
+    all_errors = Error.objects.all()
 
+    context = {
+        'all_errors': all_errors
+    }
+
+    return render(request, 'error/index.html', context)
